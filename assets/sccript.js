@@ -4,7 +4,7 @@ const inputField = document.getElementById("input-field");
 const container = document.getElementById("container");
 const tasks = document.getElementById("tasks");
 
-form.onsumbmit = function (e) {
+form.onsubmit = function (e) {
   e.preventDefault();
 };
 const btn = document.getElementById("button");
@@ -12,5 +12,6 @@ btn.addEventListener("click", function () {
   //   console.log("TARGET", e.target);
   const lists = document.createElement("li");
   lists.innerText = inputField.value;
+  inputField.value = "";
   tasks.appendChild(lists);
 });
