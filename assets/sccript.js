@@ -12,5 +12,5 @@ btn.addEventListener("click", function () {
   //   console.log("TARGET", e.target);
   const lists = document.createElement("li");
   lists.innerText = inputField.value;
-  container.appendChild(lists);
+  tasks.appendChild(lists);
 });
