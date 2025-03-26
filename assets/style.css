@@ -1,0 +1,18 @@
+body {
+  background-color: coral;
+}
+#container {
+  width: max-content;
+  margin-inline: auto;
+  margin-top: 8rem;
+  border: 4px solid black;
+  box-shadow: 0 0 10px;
+  border-radius: 12px;
+}
+h1 {
+  text-align: center;
+}
+#input-field {
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
