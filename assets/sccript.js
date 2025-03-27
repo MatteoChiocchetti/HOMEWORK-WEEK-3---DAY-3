@@ -4,6 +4,10 @@ const inputField = document.getElementById("input-field");
 const container = document.getElementById("container");
 const tasks = document.getElementById("tasks");
 
+const handleClick = function (e) {
+  e.currentTarget.classList.toggle("completed");
+};
+
 form.onsubmit = function (e) {
   e.preventDefault();
 };
